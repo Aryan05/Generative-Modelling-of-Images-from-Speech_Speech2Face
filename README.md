@@ -40,14 +40,6 @@ We have used face retrieval performace as a evaluation metric and we are able to
     <img src="results/result2.png" alt="Image" width="800" height="700"/>
 </p>
 
-
-## Future Work
-1. Implementation of the Face Decoder Model, which takes as input the face features predicted by Speech2Face model and produces an image of the face in a canonical form (frontal-facing and with neutral expression).
-2. The pretrained Face Decoder Model used by the paper was not available and the model was based on another CVPR paper (Synthesizing Normalized Faces from Facial Identity Features)
-3. We tried implementing the model but this required lots of data for the model to train properly and the result was not even human recognizable.
-4. As the main focus of the project was on Speech Domain, we plan to complete this Vision task in the future.
-
-
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
