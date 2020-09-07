@@ -3,14 +3,14 @@
 This project implements a framework to convert speech to facial features as described in the CVPR 2019 paper - [Speech2Face: Learning the Face Behind a Voice](https://arxiv.org/pdf/1905.09773.pdf) by MIT CSAIL group.
 
 ### Steps Used
-1.Creating a model for reconstructing a person's face from his/her voice sample.
-2.The project started off with understanding the workflow and creating a timeline of the tasks to be done.
-3.Firstly, I extracted the voice segments and face of the people from youtube videos using the AVSpeech dataset.
-4.Next, I augmented the audio segments with themselves until they reached a fixed clip size to make the inputs uniform for the encoder network.
-5.After that, I extracted the facial features from the extracted faces using VGG vace which would be the output ground truth values for my encoder network and proceeded with building and training the encoder network.
-6.The next task was to reconstruct the image of a person from the output of the encoder using a Face decoder network.
-7.I built the decoder network to do the same usign transpose convolution layers and sm currently in the process of optimization of hyper-parameters.
-9.In the end, I was able to create a model that can give an approximate of a person's facial looks from his / her audio samples
+* Creating a model for reconstructing a person's face from his/her voice sample.
+* The project started off with understanding the workflow and creating a timeline of the tasks to be done.
+* Firstly, I extracted the voice segments and face of the people from youtube videos using the AVSpeech dataset.
+* Next, I augmented the audio segments with themselves until they reached a fixed clip size to make the inputs uniform for the encoder network.
+* After that, I extracted the facial features from the extracted faces using VGG vace which would be the output ground truth values for my encoder network and proceeded with building and training the encoder network.
+* The next task was to reconstruct the image of a person from the output of the encoder using a Face decoder network.
+* I built the decoder network to do the same usign transpose convolution layers and sm currently in the process of optimization of hyper-parameters.
+* In the end, I was able to create a model that can give an approximate of a person's facial looks from his / her audio samples
 
 ### Getting Started
 
